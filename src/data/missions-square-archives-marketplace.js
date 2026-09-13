@@ -666,7 +666,7 @@ export const MISSIONS_SQUARE_ARCHIVES_MARKETPLACE = [
     title: "Lockdown: Discord",
     briefing: "Changing your Discord password invalidates all active tokens -- it's both a password reset and a session wipe. 2FA adds a second layer, and backup codes are critical because losing your authenticator without codes means losing the account.",
     steps: [
-      { text: `Open Discord Settings → "My Account"", url: "https://discord.com/channels/@me` },
+      { text: 'Open Discord Settings → "My Account"', url: 'https://discord.com/channels/@me' },
       { text: `Click "Change Password" -- open your password manager, generate a 20+ character random password, save it, paste it in` },
       { text: `Scroll to "Two-Factor Authentication" → click "Enable" → scan the QR code with your authenticator app` },
       { text: `IMPORTANT: Click "Download Backup Codes" and save them in your password manager. Losing these + your authenticator = permanent lockout` },
@@ -1032,7 +1032,7 @@ export const MISSIONS_SQUARE_ARCHIVES_MARKETPLACE = [
     title: "Lockdown: GitHub",
     briefing: "Your GitHub password protects your code, your professional reputation, and any secrets accidentally committed. GitHub now requires 2FA for public repo contributors. Old personal access tokens with broad permissions are a common backdoor -- rotate them.",
     steps: [
-      { text: `Open GitHub Settings → "Password and authentication"", url: "https://github.com/settings/security` },
+      { text: 'Open GitHub Settings → "Password and authentication"', url: 'https://github.com/settings/security' },
       { text: "Change your password -- open your password manager, generate 20+ characters, save, paste" },
       { text: `Under "Two-factor authentication" → enable with authenticator app if not already on` },
       { text: `Go to Settings → "Developer settings" → "Personal access tokens" → revoke any old tokens with broad scopes` },
