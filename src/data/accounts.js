@@ -2,6 +2,11 @@ import { VAULT_CAPITOL_ACCOUNTS } from './accounts-vault-capitol-additions.js';
 import { ACCOUNTS_SAM_ADDITIONS } from './accounts-sam-additions.js';
 import { PERIMETER_ACCOUNTS } from './accounts-perimeter.js';
 import { RECLAMATION_ACCOUNTS } from './accounts-reclamation.js';
+import { FREEWAY_ACCOUNTS } from './accounts-freeway.js';
+import { GRID_ACCOUNTS } from './accounts-grid.js';
+import { FOUNDRY_ACCOUNTS } from './accounts-foundry.js';
+import { CLINIC_ACCOUNTS } from './accounts-clinic.js';
+import { TRAIL_ACCOUNTS } from './accounts-trail.js';
 
 const BASE_ACCOUNTS = {
   // Chapter 1: The Master Keys
@@ -223,4 +228,9 @@ export const ACCOUNTS = {
   ...ACCOUNTS_SAM_ADDITIONS,
   ...PERIMETER_ACCOUNTS,
   ...RECLAMATION_ACCOUNTS,
+  ...FREEWAY_ACCOUNTS,
+  ...FOUNDRY_ACCOUNTS,
+  ...GRID_ACCOUNTS,
+  ...CLINIC_ACCOUNTS,
+  ...TRAIL_ACCOUNTS,
 };

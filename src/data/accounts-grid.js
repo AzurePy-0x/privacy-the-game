@@ -1,0 +1,37 @@
+export const GRID_ACCOUNTS = {
+  smart_tv: {
+    name: 'Smart TV',
+    district: 'grid',
+    building: 'assets/buildings/iso_occupied.png',
+    buildingDark: 'assets/buildings/iso_occupied.png',
+    riskLevel: 'high',
+  },
+  voice_assistant: {
+    name: 'Voice Assistant',
+    district: 'grid',
+    building: 'assets/buildings/iso_tower_occ.png',
+    buildingDark: 'assets/buildings/iso_tower_occ.png',
+    riskLevel: 'high',
+  },
+  smart_camera: {
+    name: 'Smart Camera',
+    district: 'grid',
+    building: 'assets/buildings/iso_occupied.png',
+    buildingDark: 'assets/buildings/iso_occupied.png',
+    riskLevel: 'high',
+  },
+  smart_appliances: {
+    name: 'Smart Appliances',
+    district: 'grid',
+    building: 'assets/buildings/iso_tower_occ.png',
+    buildingDark: 'assets/buildings/iso_tower_occ.png',
+    riskLevel: 'medium',
+  },
+  smart_network: {
+    name: 'Home Network',
+    district: 'grid',
+    building: 'assets/buildings/iso_occupied.png',
+    buildingDark: 'assets/buildings/iso_occupied.png',
+    riskLevel: 'high',
+  },
+};

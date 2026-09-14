@@ -3,6 +3,11 @@ import { VAULT_CAPITOL_MISSIONS } from './missions-vault-capitol.js';
 import { MISSIONS_SQUARE_ARCHIVES_MARKETPLACE } from './missions-square-archives-marketplace.js';
 import { PERIMETER_MISSIONS } from './missions-perimeter.js';
 import { RECLAMATION_MISSIONS } from './missions-reclamation.js';
+import { FREEWAY_MISSIONS } from './missions-freeway.js';
+import { FOUNDRY_MISSIONS } from './missions-foundry.js';
+import { GRID_MISSIONS } from './missions-grid.js';
+import { CLINIC_MISSIONS } from './missions-clinic.js';
+import { TRAIL_MISSIONS } from './missions-trail.js';
 
 const BREACH_DEBRIEF = [
   {
@@ -1126,6 +1131,11 @@ export const MISSIONS = [
   ...MISSIONS_SQUARE_ARCHIVES_MARKETPLACE,
   ...PERIMETER_MISSIONS,
   ...RECLAMATION_MISSIONS,
+  ...FREEWAY_MISSIONS,
+  ...FOUNDRY_MISSIONS,
+  ...GRID_MISSIONS,
+  ...CLINIC_MISSIONS,
+  ...TRAIL_MISSIONS,
 ];
 
 export function getMissionsForDistrict(districtId) {
