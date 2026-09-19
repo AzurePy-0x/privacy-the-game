@@ -105,7 +105,7 @@ const BASE_ACCOUNTS = {
     district: 'vault',
     building: 'assets/buildings/venmo.png',
     buildingDark: 'assets/buildings/venmo_dark.png',
-    securityUrl: 'https://venmo.com/account/settings/security',
+    securityUrl: 'https://account.venmo.com/settings/security',
     riskLevel: 'medium',
   },
   cashapp: {

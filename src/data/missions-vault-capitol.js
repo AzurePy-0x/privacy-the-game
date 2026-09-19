@@ -355,7 +355,7 @@ export const VAULT_CAPITOL_MISSIONS = [
     title: 'Secure Login: Venmo',
     briefing: `Venmo makes sending money frictionless -- tap, amount, send. That's great for you and catastrophic if someone else has your password. New password plus payment PIN in one visit.`,
     steps: [
-      { text: 'Open Venmo Settings', url: 'https://venmo.com/account/settings/security' },
+      { text: 'Open Venmo Settings', url: 'https://account.venmo.com/settings/security' },
       { text: 'Change your password (generate in password manager)' },
       { text: 'Enable "Security Lock" -- this requires PIN or biometrics for every payment' },
       { text: 'Set a PIN that is NOT your phone unlock PIN or your bank PIN' },
@@ -378,7 +378,7 @@ export const VAULT_CAPITOL_MISSIONS = [
     title: 'Privacy Lockdown: Venmo',
     briefing: `Venmo's default transaction privacy is public. Every payment you make -- the amount, the recipient, the memo -- is visible to anyone. A BuzzFeed reporter tracked the President's Venmo transactions in 2021. Two taps fix this.`,
     steps: [
-      { text: 'Open Venmo Privacy Settings', url: 'https://venmo.com/account/settings/privacy' },
+      { text: 'Open Venmo Privacy Settings', url: 'https://account.venmo.com/settings/privacy' },
       { text: 'Set "Default Privacy Setting" to Private' },
       { text: 'Set "Friends List" visibility to Private' },
       { text: 'Scroll through your past transactions -- change any public ones to private' },
